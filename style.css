@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+body{
+    display: flex;
+    background-color: #f2ebe3;
+    align-items: center;
+    justify-content: center;
+    font-family:Fraunces;
+}
+
+.card{
+    width: 250px;
+    height: 375px;
+}
+
+
+#photo{
+    background-color: blue;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#photo img{
+    max-width: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#content{
+background-color: white;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+
+.price {
+    display: flex;
+}
+
+#perfume{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 65%;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    color: #6c7289;
+    font-weight: 600;
+}
+
+#heading{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 160%;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 50px;
+}
+
+#main{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: 80%;
+    line-height: 20px;
+    color: #6c7289;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+
+#price1{
+    margin-left: 25px;
+    color: #3c8067;
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#price2{
+margin-top: 25px;
+font-size: 80%;
+color: #6c7289;
+margin-left: 15px;
+}
+
+.btn{
+align-items: center;
+justify-content: center;
+}
+
+
+#button{
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    background-color: #3c8067;
+    color: white;
+    font-family: Montserrat;
+    padding: 13px;
+    font-size: 80%;
+    font-weight: 700;
+    width: 70%;
+    border-radius: 7px;
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+}
+
+#button:hover{
+    background-color: #1b4133;
+}
